@@ -11,7 +11,7 @@ We build the CSS variables and the Javascript code needed to bring functionality
 ### Cloning
 Go to the Terminal, choose a directory where you wish to clone the repository and run:
 ```bash
-git clone
+git clone git@github.com:Francisco-Webdeveloper/CSS-Variables-Manipulated-with-JS.git
 ```
 
 ### Local Server
