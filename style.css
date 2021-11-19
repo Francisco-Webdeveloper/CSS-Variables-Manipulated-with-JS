@@ -1,0 +1,36 @@
+/* Definition of css variables at the root level so their scope is the entire document */
+:root {
+    --base: #32f2af;
+    --spacing: 30px;
+    --blur: 0px;
+    --grayscale: 50%;
+    --contrast: 100%;
+}
+
+/* set image property values with above defined variables */
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur)) grayscale(var(--grayscale)) contrast(var(--contrast));
+}
+
+.hl {
+    color: var(--base);
+}
+
+body {
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+  }
+
+  .controls {
+    margin-bottom: 50px;
+  }
+
+  input {
+    width: 100px;
+  }
